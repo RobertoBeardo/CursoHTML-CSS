@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Practica con Pseudoselectores</title>
+
+    <link href="css/estilos.css" type="text/css" rel="stylesheet" />
+</head>
+
+<body>
+    <table>
+        <caption><a href="https://www.youtube.com/watch?v=rrCH-wawaJs" target="_blank">ENTRANTES DE CHICOTE - CURSO 2021</a></caption>
+        <thead>
+            <tr>
+                <th>HORAS</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>8:00H</td>
+                <td rowspan="2">Pulpo a la Gallega</td>
+                <td>Carne al Toro</td>
+                <td>Sopa de Tomate</td>
+                <td colspan="2">Crema de Calabaza</td>
+            </tr>
+            <tr>
+                <td>9:00H</td>
+                <td>Arroz con pollo</td>
+                <td>Arbóndigas</td>
+                <td>Dorada a la plancha</td>
+                <td>Pucherito</td>
+            </tr>
+            <tr>
+                <td>10:00H</td>
+                <th colspan="5">DESCANSO</th>
+            </tr>
+            <tr>
+                <td>10:30H</td>
+                <td>Filete empanado</td>
+                <td rowspan="2">Hamburguesa</td>
+                <td>Pizza</td>
+                <td>Garbanzos</td>
+                <td>Sushi</td>
+            </tr>
+            <tr>
+                <td>11:30H</td>
+                <td>Tortilla de Patatas</td>
+                <td>Huevos Rotos</td>
+                <td>Cachopo</td>
+                <td>Chipirones en su tinta</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <form>
+        <p>
+            <label for="destino">Email</label>
+            <input type="Email" name="destino" placeholder="Inserte su email" required />
+        </p>
+        <input type="button" value="Enviar Tapeo" />
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid black;
+}
+/* COLOR VERDE CASILLAS CON LA HORA */
+
+tbody tr td:first-child {
+  background-color: green;
+}
+
+/* COLOR AMARILLO CELDA RECREO */
+tbody tr:nth-child(3) th:nth-child(2) {
+  background-color: yellow;
+}
+
+/* ESTADO DE LOS ENLACES: NUNCA ESTEN SUBRAYADOS, NO VISITADO:VERDE, VISITADO:ROJO */
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: red;
+}
+
+/* AUMENTA TAMAÑO AL DOBLE AL PASAR EL RATON POR ENCIMA */
+
+tr th:last-child:hover,
+tr td:last-child:hover {
+  font-size: 2em;
+}
+
+/* PRIMERA LETRA DEL DIA, TIENE EL DOBLE DEL TAMAÑO*/
+thead tr th::first-letter {
+  font-size: 2em;
+}
+
+/* BORDE ROJO A LOS CAMPOS OBLIGATORIOS */
+input:required {
+  border: 1px solid red;
+  padding: 10px;
+}
+/* AÑADE UN * DETRAS DE LAS ETIQUETAS */
+label::after {
+  color: red;
+  content: "*";
+}

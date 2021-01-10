@@ -1,0 +1,53 @@
+/* CENTRAR TEXTO */
+h1 {
+  text-align: center;
+}
+
+/* MISMO TAMAÑO */
+img {
+  width: 50px;
+  height: 50px;
+}
+
+/*TODAS CON CLASE PRIMERA, TENDRAN CELDA DE COOLOR ROJO*/
+.primera {
+  background-color: red;
+  color: white;
+}
+
+/* PARA TODO LO QUE CONTENGAN GB, QUE SE MUESTRE FONDO GRIS, CENTRADO Y TAMAÑO MAS GRANDE */
+#fila .gb {
+  background-color: grey;
+  font-size: 2em;
+  text-align: center;
+}
+
+/* PARA LI, CAMBIA EL COLOR DE TEXTO A ROJO*/
+#listas li {
+  color: red;
+}
+
+/*UTILIZANDO ID=5, AUMENTAMOS EL TAMAÑO DE CELDA, COLOR DE CELDA Y TAMAÑO*/
+#cinco {
+  background-color: yellow;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/* ESTILO DE TABLA COLAPSADO, CAMBIO DE TAMAÑO Y MARGEN */
+table {
+  border-collapse: collapse;
+  margin: 0px auto;
+  width: 50%;
+}
+
+td,
+th {
+  border: 1px solid black;
+}
+
+/* COLOR DE CELDA AZUL A COLSPAN 2 Y 3*/
+[colspan="2"],
+[colspan="3"] {
+  background-color: blue;
+}
